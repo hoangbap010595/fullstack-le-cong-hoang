@@ -1,0 +1,73 @@
+{
+  "Todo": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer",
+        "example": 1,
+        "description": "The unique identifier of the todo item."
+      },
+      "name": {
+        "type": "string",
+        "example": "Problem 1",
+        "description": "The text name of the todo item."
+      },
+      "description": {
+        "type": "string",
+        "example": "Problem 1",
+        "description": "The text description of the todo item."
+      },
+      "completed": {
+        "type": "boolean",
+        "example": false,
+        "description": "The completion status of the todo item."
+      },
+      "createdAt": {
+        "type": "datetime",
+        "example": "2024-07-12T06:06:21.609Z",
+        "description": "The created date of the todo item."
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "example": "2024-07-12T06:06:21.609Z",
+        "description": "The updated date of the todo item."
+      }
+    },
+    "required": ["id", "name", "description", "completed"]
+  },
+  "CreateTodoRequest": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "example": "Problem 1",
+        "description": "The text name of the todo item."
+      },
+      "description": {
+        "type": "string",
+        "example": "Problem 1",
+        "description": "The text description of the todo item."
+      }
+    }
+  },
+  "UpdateTodoRequest": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "example": "Problem 1",
+        "description": "The text name of the todo item."
+      },
+      "description": {
+        "type": "string",
+        "example": "Problem 1",
+        "description": "The text description of the todo item."
+      },
+      "completed": {
+        "type": "boolean",
+        "example": false,
+        "description": "The completion status of the todo item."
+      }
+    }
+  }
+}
