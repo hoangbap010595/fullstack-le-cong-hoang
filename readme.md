@@ -1,3 +1,9 @@
+# Candidate: Le Cong Hoang - lchoang1995@gmail.com - 0901.479.784
+
+
+
+
+
 # 99Tech Code Challenge #1 #
 
 Note that if you fork this repository, your responses may be publicly linked to this repo.  
