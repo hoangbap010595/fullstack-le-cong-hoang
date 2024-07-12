@@ -58,7 +58,7 @@ const Swap = () => {
   ]);
 
   return (
-    <div className="bg-white/10 rounded-lg px-6 pt-10 pb-8 dark:bg-dark-300 sm:px-8 lg:p-12">
+    <div className="bg-white/10 rounded-3xl px-6 pt-10 pb-8 dark:bg-dark-300 sm:px-8 lg:p-12">
       <h5 className="font-bold text-3xl mb-10">Swap</h5>
       <div className="relative z-10 flex items-center">
         <div className="w-full shrink-0 text-left md:w-[680px]">
@@ -100,7 +100,7 @@ const Swap = () => {
                 <div className="flex items-center justify-center gap-2">
                   <Button
                     type="submit"
-                    className="inline-flex items-center gap-2 rounded-md bg-green-500 hover:bg-green-400 py-4 px-10 text-lg font-semibold text-white"
+                    className="inline-flex items-center gap-2 w-full justify-center rounded-md bg-green-500 hover:bg-green-400 py-6 px-10 mt-5 text-xl font-semibold text-white"
                   >
                     CONFIRM SWAP
                   </Button>
